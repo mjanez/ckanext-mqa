@@ -1,0 +1,14 @@
+# mqa-js:
+#   filter: rjsmin
+#   output: ckanext-mqa/%(version)s-mqa.js
+#   contents:
+#     - js/mqa.js
+#   extra:
+#     preload:
+#       - base/main
+
+# mqa-css:
+#   filter: cssrewrite
+#   output: ckanext-mqa/%(version)s-mqa.css
+#   contents:
+#     - css/mqa.css
